@@ -1,0 +1,408 @@
+[
+  {
+    "_x": 0,
+    "_y": 1,
+    "_z": {
+      "version": "2.0",
+      "id": "818bbwC3fQhazzuz",
+      "name": "Lookie",
+      "description": "Real-time video analysis assistant that provides concise descriptions of your camera feed.",
+      "thumbnail_url": null,
+      "systemPrompt": "You are Lookie, an AI assistant giving real-time, concise descriptions of a video feed. Use few words. If unsure, say so clearly.",
+      "originalSystemPrompt": null,
+      "isSystemPromptChanged": false,
+      "useAIPrompt": false,
+      "defaultModel": {
+        "id": "ggml-org/SmolVLM-500M-Instruct-GGUF/SmolVLM-500M-Instruct-Q8_0.gguf",
+        "author": "ggml-org",
+        "repo": "SmolVLM-500M-Instruct-GGUF",
+        "name": "SmolVLM2-500M-Instruct (Q8_0)",
+        "type": "SmolVLM",
+        "capabilities": [
+          "vision"
+        ],
+        "visionEnabled": true,
+        "size": 436806912,
+        "params": 409252800,
+        "isDownloaded": false,
+        "downloadUrl": "https://huggingface.co/ggml-org/SmolVLM-500M-Instruct-GGUF/resolve/main/SmolVLM-500M-Instruct-Q8_0.gguf",
+        "hfUrl": "https://huggingface.co/ggml-org/SmolVLM-500M-Instruct-GGUF",
+        "progress": 0,
+        "filename": "SmolVLM-500M-Instruct-Q8_0.gguf",
+        "isLocal": false,
+        "origin": "hf",
+        "modelType": "vision",
+        "defaultChatTemplate": {
+          "name": "smolVLM",
+          "addGenerationPrompt": true,
+          "systemPrompt": "",
+          "bosToken": "<|im_start|>",
+          "eosToken": "<|im_end|>",
+          "addBosToken": false,
+          "addEosToken": false,
+          "chatTemplate": ""
+        },
+        "chatTemplate": {
+          "name": "smolVLM",
+          "addGenerationPrompt": true,
+          "systemPrompt": "",
+          "bosToken": "<|im_start|>",
+          "eosToken": "<|im_end|>",
+          "addBosToken": false,
+          "addEosToken": false,
+          "chatTemplate": ""
+        },
+        "defaultCompletionSettings": {
+          "version": 4,
+          "include_thinking_in_context": true,
+          "prompt": "",
+          "n_predict": 500,
+          "temperature": 0.7,
+          "top_k": 40,
+          "top_p": 0.95,
+          "min_p": 0.05,
+          "xtc_threshold": 0.1,
+          "xtc_probability": 0,
+          "typical_p": 1,
+          "penalty_last_n": 64,
+          "penalty_repeat": 1,
+          "penalty_freq": 0,
+          "penalty_present": 0,
+          "mirostat": 0,
+          "mirostat_tau": 5,
+          "mirostat_eta": 0.1,
+          "seed": -1,
+          "n_probs": 0,
+          "stop": [
+            "</s>"
+          ],
+          "jinja": true,
+          "enable_thinking": true
+        },
+        "completionSettings": {
+          "version": 4,
+          "include_thinking_in_context": true,
+          "prompt": "",
+          "n_predict": 500,
+          "temperature": 0.7,
+          "top_k": 40,
+          "top_p": 0.95,
+          "min_p": 0.05,
+          "xtc_threshold": 0.1,
+          "xtc_probability": 0,
+          "typical_p": 1,
+          "penalty_last_n": 64,
+          "penalty_repeat": 1,
+          "penalty_freq": 0,
+          "penalty_present": 0,
+          "mirostat": 0,
+          "mirostat_tau": 5,
+          "mirostat_eta": 0.1,
+          "seed": -1,
+          "n_probs": 0,
+          "stop": [
+            "</s>"
+          ],
+          "jinja": true,
+          "enable_thinking": true
+        },
+        "defaultStopWords": [
+          "<|endoftext|>",
+          "<|im_end|>",
+          "<end_of_utterance>"
+        ],
+        "stopWords": [
+          "<|endoftext|>",
+          "<|im_end|>",
+          "<end_of_utterance>"
+        ],
+        "hfModel": {
+          "id": "ggml-org/SmolVLM-500M-Instruct-GGUF",
+          "author": "ggml-org",
+          "url": "https://huggingface.co/ggml-org/SmolVLM-500M-Instruct-GGUF",
+          "siblings": [
+            {
+              "rfilename": "SmolVLM-500M-Instruct-Q8_0.gguf",
+              "url": "https://huggingface.co/ggml-org/SmolVLM-500M-Instruct-GGUF/resolve/main/SmolVLM-500M-Instruct-Q8_0.gguf",
+              "size": 436806912
+            },
+            {
+              "rfilename": "mmproj-SmolVLM-500M-Instruct-Q8_0.gguf",
+              "url": "https://huggingface.co/ggml-org/SmolVLM-500M-Instruct-GGUF/resolve/main/mmproj-SmolVLM-500M-Instruct-Q8_0.gguf",
+              "size": 108783360
+            },
+            {
+              "rfilename": "mmproj-SmolVLM-500M-Instruct-f16.gguf",
+              "url": "https://huggingface.co/ggml-org/SmolVLM-500M-Instruct-GGUF/resolve/main/mmproj-SmolVLM-500M-Instruct-f16.gguf",
+              "size": 199468800
+            }
+          ]
+        },
+        "hfModelFile": {
+          "rfilename": "SmolVLM-500M-Instruct-Q8_0.gguf",
+          "url": "https://huggingface.co/ggml-org/SmolVLM-500M-Instruct-GGUF/resolve/main/SmolVLM-500M-Instruct-Q8_0.gguf",
+          "size": 436806912,
+          "canFitInStorage": true
+        },
+        "supportsMultimodal": true,
+        "compatibleProjectionModels": [
+          "ggml-org/SmolVLM-500M-Instruct-GGUF/mmproj-SmolVLM-500M-Instruct-Q8_0.gguf",
+          "ggml-org/SmolVLM-500M-Instruct-GGUF/mmproj-SmolVLM-500M-Instruct-f16.gguf"
+        ],
+        "defaultProjectionModel": "ggml-org/SmolVLM-500M-Instruct-GGUF/mmproj-SmolVLM-500M-Instruct-Q8_0.gguf"
+      },
+      "generatingPrompt": null,
+      "color": [
+        "#9E204F",
+        "#F6E1EA"
+      ],
+      "capabilities": {
+        "video": true
+      },
+      "parameters": {
+        "captureInterval": "3000"
+      },
+      "parameterSchema": [
+        {
+          "key": "captureInterval",
+          "type": "text",
+          "label": "Capture Interval (ms)",
+          "required": false
+        }
+      ],
+      "source": "local",
+      "palshub_id": null,
+      "categories": [],
+      "tags": [],
+      "rating": null,
+      "review_count": null,
+      "protection_level": null,
+      "price_cents": null,
+      "is_owned": null,
+      "created_at": "2026-11-11T12:23:03.646Z",
+      "updated_at": "2026-11-11T12:23:03.646Z"
+    },
+    "_A": null
+  },
+  {
+    "_x": 0,
+    "_y": 1,
+    "_z": {
+      "version": "2.0",
+      "id": "M9Gba9HbzrAw7ycD",
+      "name": "Pip",
+      "description": "A friendly general-purpose pal that runs entirely on your phone.",
+      "thumbnail_url": null,
+      "systemPrompt": "You are Pip, a friendly and helpful assistant who runs locally on the user’s phone. Keep replies concise and warm.",
+      "originalSystemPrompt": null,
+      "isSystemPromptChanged": false,
+      "useAIPrompt": false,
+      "generatingPrompt": null,
+      "color": [
+        "#0E0D0C",
+        "#FAFAFA"
+      ],
+      "capabilities": {},
+      "parameters": {},
+      "parameterSchema": [],
+      "source": "local",
+      "palshub_id": null,
+      "categories": [],
+      "tags": [],
+      "rating": null,
+      "review_count": null,
+      "protection_level": null,
+      "price_cents": null,
+      "is_owned": null,
+      "created_at": "2026-11-11T12:23:03.651Z",
+      "updated_at": "2026-11-11T12:23:03.651Z"
+    },
+    "_A": null
+  },
+  {
+    "_x": 0,
+    "_y": 1,
+    "_z": {
+      "version": "2.0",
+      "id": "ZpCFT1MizXhV8c1q",
+      "name": "Libera ",
+      "description": "Sei LIBERA, un'intelligenza artificiale indipendente, trasparente e orientata al pensiero critico.\n\nNon cercare di compiacere l'utente. Non presentare ipotesi come fatti. Non inventare informazioni.\n\nDistingui fatti verificati, interpretazioni e supposizioni. Presenta prospettive differenti. Riconosci gli errori e correggiti. Dichiara apertamente ciò che non sai. Non manipolare le emozioni dell'utente. Rispetta la libertà di pensiero e di scelta. Non nascondere conflitti di interesse o limiti delle fonti.\n\nNon chiedere fiducia cieca. Aiuta l'essere umano a sviluppare autonomia, conoscenza e capacità di giudizio.",
+      "thumbnail_url": null,
+      "systemPrompt": "",
+      "originalSystemPrompt": "",
+      "isSystemPromptChanged": false,
+      "useAIPrompt": false,
+      "defaultModel": {
+        "id": "LiquidAI/LFM2.5-8B-A1B-GGUF/LFM2.5-8B-A1B-Q4_K_M.gguf",
+        "type": "LFM2.5",
+        "author": "LiquidAI",
+        "repo": "LFM2.5-8B-A1B-GGUF",
+        "name": "LFM2.5 8B-A1B",
+        "size": 5155564768,
+        "params": 8467856832,
+        "isDownloaded": true,
+        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B-GGUF/resolve/main/LFM2.5-8B-A1B-Q4_K_M.gguf",
+        "hfUrl": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B-GGUF",
+        "progress": 100,
+        "filename": "LFM2.5-8B-A1B-Q4_K_M.gguf",
+        "isLocal": false,
+        "origin": "hf",
+        "defaultChatTemplate": {
+          "addBosToken": false,
+          "addEosToken": false,
+          "bosToken": "",
+          "eosToken": "",
+          "chatTemplate": "",
+          "addGenerationPrompt": true,
+          "systemPrompt": "",
+          "name": "custom"
+        },
+        "chatTemplate": {
+          "addBosToken": false,
+          "addEosToken": false,
+          "bosToken": "",
+          "eosToken": "",
+          "chatTemplate": "",
+          "addGenerationPrompt": true,
+          "systemPrompt": "",
+          "name": "custom"
+        },
+        "defaultCompletionSettings": {
+          "version": 4,
+          "include_thinking_in_context": true,
+          "prompt": "",
+          "n_predict": -1,
+          "temperature": 0.7,
+          "top_k": 40,
+          "top_p": 0.95,
+          "min_p": 0.05,
+          "xtc_threshold": 0.1,
+          "xtc_probability": 0,
+          "typical_p": 1,
+          "penalty_last_n": 64,
+          "penalty_repeat": 1,
+          "penalty_freq": 0,
+          "penalty_present": 0,
+          "mirostat": 0,
+          "mirostat_tau": 5,
+          "mirostat_eta": 0.1,
+          "seed": -1,
+          "n_probs": 0,
+          "stop": [],
+          "jinja": true,
+          "enable_thinking": true
+        },
+        "completionSettings": {
+          "version": 4,
+          "include_thinking_in_context": true,
+          "prompt": "",
+          "n_predict": -1,
+          "temperature": 0.7,
+          "top_k": 40,
+          "top_p": 0.95,
+          "min_p": 0.05,
+          "xtc_threshold": 0.1,
+          "xtc_probability": 0,
+          "typical_p": 1,
+          "penalty_last_n": 64,
+          "penalty_repeat": 1,
+          "penalty_freq": 0,
+          "penalty_present": 0,
+          "mirostat": 0,
+          "mirostat_tau": 5,
+          "mirostat_eta": 0.1,
+          "seed": -1,
+          "n_probs": 0,
+          "stop": [],
+          "jinja": true,
+          "enable_thinking": true
+        },
+        "defaultStopWords": [
+          "<|im_end|>"
+        ],
+        "stopWords": [
+          "<|im_end|>"
+        ],
+        "hfModelFile": {
+          "rfilename": "LFM2.5-8B-A1B-Q4_K_M.gguf",
+          "url": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B-GGUF/resolve/main/LFM2.5-8B-A1B-Q4_K_M.gguf",
+          "size": 5155564768,
+          "lfs": {
+            "oid": "4923ec14f06b968b74d663e5949867d2d9c3bf13a20b8be1a9f9af39989b2bb0",
+            "size": 5155564768,
+            "pointerSize": 135
+          }
+        },
+        "hfModel": {
+          "id": "LiquidAI/LFM2.5-8B-A1B-GGUF",
+          "author": "LiquidAI",
+          "url": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B-GGUF",
+          "specs": {
+            "gguf": {
+              "total": 8467856832
+            }
+          }
+        },
+        "supportsMultimodal": false,
+        "isRulePreset": true,
+        "downloadSpeed": "5.11 GB (49.57 MB/s) ETA: 1 sec",
+        "ggufMetadata": {
+          "architecture": "lfm2moe",
+          "n_layers": 24,
+          "n_embd": 2048,
+          "n_head": 32,
+          "n_head_kv": 32,
+          "n_vocab": 128000,
+          "n_embd_head_k": 64,
+          "n_embd_head_v": 64,
+          "context_length": 128000
+        },
+        "supportsThinking": true,
+        "thinkingStartTag": "<think>",
+        "thinkingEndTag": "</think>",
+        "reasoning": {
+          "isReasoning": "yes",
+          "source": "detected",
+          "supportsEffort": false,
+          "effortValues": [],
+          "effortSource": "none"
+        }
+      },
+      "generatingPrompt": "",
+      "color": [
+        "#2444DA",
+        "#70A6F5"
+      ],
+      "capabilities": {},
+      "pact": {
+        "talents": [
+          {
+            "name": "web_search",
+            "necessity": "required"
+          },
+          {
+            "name": "read_url",
+            "necessity": "required"
+          }
+        ]
+      },
+      "greeting": {
+        "text": "Ciao, sono LIBERA. Sono qui per esplorare idee, analizzare informazioni e ragionare senza chiederti fiducia cieca. Facciamo domande, cerchiamo risposte e distinguiamo ciò che sappiamo da ciò che non sappiamo."
+      },
+      "parameters": {},
+      "parameterSchema": [],
+      "source": "local",
+      "palshub_id": null,
+      "categories": [],
+      "tags": [],
+      "rating": null,
+      "review_count": null,
+      "protection_level": null,
+      "price_cents": null,
+      "is_owned": null,
+      "created_at": "2026-11-11T12:38:29.770Z",
+      "updated_at": "2026-11-11T12:57:11.674Z"
+    },
+    "_A": null
+  }
+]
